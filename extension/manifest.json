@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "monkeytype sus",
+    "version": "1.0",
+    "description": "for noobs who want high wpm with turtoise hand speed",
+    "action": {
+    "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches":[
+                "https://monkeytype.com/"
+            ],
+            "js": ["script.js"]
+        }
+    ],
+    "host_permissions": [
+    "https://monkeytype.com/"
+  ]
+}
+
